@@ -1,6 +1,6 @@
 # FORUM ENGINE V 0.1 
 
-***FORUM ENGINE*** es una 'API REST' de código abierto escrito en Java para crear y gestionar foros. Este producto es un proyecto educativo del programa <a src="https://www.oracle.com/ar/education/oracle-next-education/">ONE (Oracle Next Education)</a> y <a src="https://www.aluracursos.com/">Alura LATAM</a> de la formación Back End; mi intención fue diseñarla para ser flexible y fácilmente integrable en cualquier aplicación basada en foros.
+***FORUM ENGINE*** es una `API REST` de código abierto escrito en Java para crear y gestionar foros. Este producto es un proyecto educativo del programa <a src="https://www.oracle.com/ar/education/oracle-next-education/">ONE (Oracle Next Education)</a> y <a src="https://www.aluracursos.com/">Alura LATAM</a> de la formación Back End; mi intención fue diseñarla para ser flexible y fácilmente integrable en cualquier aplicación basada en foros.
 
 ## Tabla de contenidos
 
@@ -11,7 +11,7 @@
 -[Contribuciones](#contribuciones)
 -[Licencia](licencia)
 
-##Características
+## Características
 - Registro y autenticación de usuarios
 - Operaciones CRUD para temas y publicaciones del foro
 - Control de acceso basado en roles
@@ -47,7 +47,7 @@ cd ForumEngineAPI
 Abre con tu entorno de desarrollo de preferencia, necesitarás configurarlo con Spring Boot.
 ***Configura la base de datos***
 La base de datos está configurada para adaptarse a las variables de entorno personalizadas de cada entorno de desarrollo pero si aún así prefieres configurarla o no sabes utilizar la variable de entorno, sigue éstos simples pasos.
-Actualiza el archivo 'src/main/resources/aplication.properties' con tu configuración personal de base de datos:
+Actualiza el archivo `src/main/resources/aplication.properties` con tu configuración personal de base de datos:
 ```
 spring.datasource.url=jdbc:mysql://localhost:tuNumeroDePuertoDePreferencia/forumengineapi
 spring.datasource.username= ***Coloca tu nombre de usuario personalizado***
